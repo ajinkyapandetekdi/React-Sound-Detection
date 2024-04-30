@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "name": "react-sound-detection",
+  "version": "1.0.4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "Ajinkya Pande",
+  "license": "ISC",
+  "description": "A React component for sound detection",
+  "devDependencies": {
+    "@babel/preset-react": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "rollup": "^4.16.4",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
